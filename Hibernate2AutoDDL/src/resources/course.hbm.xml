@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+   
+ <hibernate-mapping>
+ 	<class name= "beans.department" table="Department" schema="system" > 
+ 		<id name="cid"/>
+ 		<property name="cname"/> 
+ 		<property name="fee"/>
+ 		
+ 	</class>
+ 	
+ </hibernate-mapping>

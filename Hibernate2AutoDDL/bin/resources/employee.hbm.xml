@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+   
+ <hibernate-mapping>
+ 	<class name= "beans.employee" table="Student" schema="system" > 
+ 		<id name="eid"/>
+ 		<property name="ename"/> 
+ 		<property name="eemail"/>
+ 		
+ 	</class>
+ 	
+ </hibernate-mapping>
